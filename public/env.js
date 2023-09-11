@@ -93,11 +93,11 @@ window.env = {
   "CONDA_PREFIX": "/home/lenovo/anaconda3",
   "INIT_CWD": "/home/lenovo/Documents/chatfire/react-firebase-chatApp",
   "EDITOR": "vi",
-  "apiKey": "AIzaSyDL3EAyDTh7ATCbAjTn1WHjmZJqA6YRayA,",
-  "authDomain": "bluneotes.firebaseapp.com,",
-  "projectId": "bluneotes,",
-  "storageBucket": "bluneotes.appspot.com,",
-  "messagingSenderId": "657851444536,",
-  "appId": "1:657851444536:web:76b72cdba0a207d00e65cd,",
+  "apiKey": "AIzaSyDL3EAyDTh7ATCbAjTn1WHjmZJqA6YRayA",
+  "authDomain": "bluneotes.firebaseapp.com",
+  "projectId": "bluneotes",
+  "storageBucket": "bluneotes.appspot.com",
+  "messagingSenderId": "657851444536",
+  "appId": "1:657851444536:web:76b72cdba0a207d00e65cd",
   "measurementId": "G-T9JJM3Q0VN"
 };

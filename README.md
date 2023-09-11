@@ -1,4 +1,4 @@
-SynChat using React Js, Firebase-v9 and Material UI with Google Login
+SynChat built with React.js, Firebase and Material UI with Google Authentication
 =====================================
 
 Live [demo](https://sync-chat-neon.vercel.app/)

@@ -1,16 +1,22 @@
 SynChat using React Js, Firebase-v9 and Material UI with Google Login
 =====================================
 
-Live [demo](https://penguine-chat.netlify.app/)
+Live [demo](https://sync-chat-neon.vercel.app/)
 
-[![Screenshot-2022-08-09-at-3-32-11-PM.png](https://i.postimg.cc/rs8pg1fp/Screenshot-2022-08-09-at-3-32-11-PM.png)](https://postimg.cc/ygbB8Z4q)
-[![Screenshot-2022-08-09-at-3-32-24-PM.png](https://i.postimg.cc/br3w5Z59/Screenshot-2022-08-09-at-3-32-24-PM.png)](https://postimg.cc/WqqVF1Td)
+## Features
+### Login with Google
+![image](https://github.com/ManishMadan2882/sync-chat/assets/96079232/2f0042f9-27ed-4a23-a0dc-2ba266ae0fd9)
+### Connect with other users
+![image](https://github.com/ManishMadan2882/sync-chat/assets/96079232/973fec55-6c15-4a99-a9c5-17375c3951aa)
+### Realtime communication
+![image](https://github.com/ManishMadan2882/sync-chat/assets/96079232/9c82a7f4-7888-4fc2-85ac-c7121cc30c11)
+
 
 Quick Start:
 ------------
 
 - ``` git clone ```
-- ``` cd react-firebase-chatApp ```
+- ``` cd sync-chat ```
 - Add your firebase configuration to firebase.js file on /src
 - ``` npm install ```
 - ``` npm start ```

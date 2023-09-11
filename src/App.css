@@ -3,6 +3,7 @@ body {
   background-size: auto;
   background-position: center;
   height: 100%;
+  color: azure;
 }
 
 #root {
@@ -11,4 +12,24 @@ body {
 
 html {
   height: 100%;
+}
+#appbar{
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(82,178,221,1) 100%, rgba(252,176,69,1) 100%);
+}
+.dark{
+  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+
+}
+#defaultDisplay{
+  display: block;
+  text-align: center;
+  margin-top: 200px;
+  font-size: 5px;
+  max-width: 1000px;
+  z-index: -0;
+}
+#dbg{
+  border-radius: 50px;
+  
 }

@@ -243,6 +243,7 @@ export function DrawerWithNav(props) {
       <AppBar
         position="fixed"
         open={open}
+        id='appbar'
         sx={(theme) => ({
           boxShadow: 'none',
           mr: '1px',
@@ -268,7 +269,7 @@ export function DrawerWithNav(props) {
           </IconButton>
           <Box display="flex" justifyContent="space-between" width="100%" alignItems={'center'}>
             <Typography variant="h6" noWrap component="div">
-              Penguins Chat
+              Synchat
             </Typography>
             <Box
               sx={{

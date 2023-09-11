@@ -3,9 +3,18 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { getStorage } from 'firebase/storage';
 import { getFirestore } from 'firebase/firestore';
+import env from 'react-dotenv'
 import 'firebase/storage';
-
-const firebaseConfig = {};
+console.log(env.apiKey)
+const firebaseConfig = {
+    apiKey: env.apiKey,
+    authDomain: env.authDomain,
+    projectId: env.projectId,
+    storageBucket: env.storageBucket,
+    messagingSenderId: env.messagingSenderId,
+    appId: env.appId,
+    measurementId: env.measurementId
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

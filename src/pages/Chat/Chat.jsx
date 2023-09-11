@@ -35,6 +35,7 @@ import { db } from '../../firebase';
 import { DrawerWithNav } from './components/DrawerWithNav';
 import moment from 'moment';
 import './chat.css';
+import bgImg from '../../assets/dbg.jpg'
 import { useDrawer } from '../../context/drawerContext';
 
 const drawerWidth = 240;
@@ -246,9 +247,25 @@ export default function Chat() {
   };
 
   return (
-    <Box sx={{ display: 'flex', height: '100%', position: 'relative' }}>
+    <Box className='dark' sx={{ display: 'flex', height: '100%', position: 'relative' }}>
       <CssBaseline />
       <DrawerWithNav handlePersonChat={handlePersonChat} />
+
+      {selectedPerson.length === 0 
+       ?
+      <Box 
+       id='defaultDisplay'
+       component={'div'}
+       sx={{
+         maxWidth: '80%',
+       }}  
+        >
+        <center>
+        <img id='dbg' width={"40%"} src= {bgImg}/>
+        <h1>Send and Receive Text messages in realtime with SynChat,<br/> Start a conversation now</h1>
+        </center>
+      </Box>
+       :
       <Box
         component="main"
         sx={(theme) => ({
@@ -320,7 +337,7 @@ export default function Chat() {
                       label={
                         <Box display="flex" flexDirection="column">
                           <span style={{ fontWeight: '500' }}>{msg.message}</span>
-                          <Typography variant="body2" color="burlywood" fontWeight={'bold'}>
+                          <Typography variant="body2" color="grey" fontWeight={'bold'}>
                             {moment(msg.time.toDate().toString()).format('D-MMM-YY, h:mm a')}
                           </Typography>
                         </Box>
@@ -366,7 +383,7 @@ export default function Chat() {
             </Box>
           </form>
         ) : null}
-      </Box>
+      </Box>}
     </Box>
   );
 }

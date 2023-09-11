@@ -43,7 +43,7 @@ export default function Login() {
     <React.Fragment>
       <CardContent>
         <Typography variant='h4' color='text.secondary' gutterBottom>
-          Penguins Chat
+          SynChat
         </Typography>
         <Box width='100%'>
           <div className='google-btn' role={'button'} onClick={(e) => handleSignIn(e, 'google')}>
@@ -59,7 +59,7 @@ export default function Login() {
             </p>
           </div>
         </Box>
-        <Box width='100%' mt={0.5}>
+  {/*       <Box width='100%' mt={0.5}>
           <div className='google-btn' style={{ backgroundColor: "#03060a" }} role={'button'} onClick={(e) => handleSignIn(e, 'github')}>
             <div className='google-icon-wrapper'>
               <img className='google-icon' src='https://github.com/fluidicon.png' alt='Github' />
@@ -68,7 +68,7 @@ export default function Login() {
               <b>Login with Github</b>
             </p>
           </div>
-        </Box>
+        </Box> */}
       </CardContent>
     </React.Fragment>
   );

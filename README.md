@@ -1,4 +1,4 @@
-Penguins Chat using React Js, Firebase-v9 and Material UI with Google & Github Login
+SynChat using React Js, Firebase-v9 and Material UI with Google Login
 =====================================
 
 Live [demo](https://penguine-chat.netlify.app/)

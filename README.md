@@ -10,7 +10,8 @@ Live [demo](https://sync-chat-neon.vercel.app/)
 ![image](https://github.com/ManishMadan2882/sync-chat/assets/96079232/973fec55-6c15-4a99-a9c5-17375c3951aa)
 ### Realtime communication
 ![image](https://github.com/ManishMadan2882/sync-chat/assets/96079232/9c82a7f4-7888-4fc2-85ac-c7121cc30c11)
-
+### Responsive UI
+![image](https://github.com/ManishMadan2882/sync-chat/assets/96079232/ce81c33b-2c88-4b94-b8de-434cd02f2a9a)
 
 Quick Start:
 ------------
